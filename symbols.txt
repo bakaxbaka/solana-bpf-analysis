@@ -1,0 +1,8 @@
+
+File: .\program.so
+Format: elf64-bpf
+Arch: bpfel
+AddressSize: 64bit
+LoadName: <Not found>
+Symbols [
+]
