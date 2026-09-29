@@ -1,0 +1,584 @@
+2026-09-29 18:15:38 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Users/profe/analysis/ghidra/ghidra_12.0.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-09-29 18:15:38 INFO  (LoggingInitialization) Using log file: C:\Users\profe\analysis\output\syscalls.log  
+2026-09-29 18:15:38 INFO  (Preferences) Loading user preferences: C:\Users\profe\AppData\Roaming\ghidra\ghidra_12.0.4_PUBLIC\preferences  
+2026-09-29 18:15:38 INFO  (ClassSearcher) Searching for classes...  
+2026-09-29 18:15:39 INFO  (ClassSearcher) Class search complete (1084 ms)  
+2026-09-29 18:15:39 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-09-29 18:15:39 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-09-29 18:15:39 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-09-29 18:15:39 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-09-29 18:15:40 INFO  (AnalyzeHeadless) Headless startup complete (3376 ms)  
+2026-09-29 18:15:40 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-09-29 18:15:40 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\profe\analysis\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts  
+2026-09-29 18:15:40 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-09-29 18:15:40 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\profe\analysis\ghidra_project\SolanaAnalysis  
+2026-09-29 18:15:40 INFO  (HeadlessProject) Opening project: C:\Users\profe\analysis\ghidra_project\SolanaAnalysis  
+2026-09-29 18:15:44 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /program.so  
+2026-09-29 18:15:44 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: /program.so  
+2026-09-29 18:15:46 DEBUG (FidAnalyzer) No FID Libraries apply for language eBPF:LE:64:default  
+2026-09-29 18:15:46 INFO  (PackedDatabaseCache) Packed database cache: C:\Users\profe\AppData\Local\ghidra\packed-db-cache  
+2026-09-29 18:15:46 DEBUG (PackedDatabaseCache) Using cached packed database: C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Base\data\typeinfo\generic\generic_clib_64.gdt  
+2026-09-29 18:15:47 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2026-09-29 18:15:47 INFO  (ExternalSymbolResolverAnalyzer) Resolving External Symbols of [/program.so] - 1 unresolved symbols, no external libraries configured - skipping  
+2026-09-29 18:15:48 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.668 secs
+    Apply Data Archives                        1.155 secs
+    Basic Constant Reference Analyzer          0.548 secs
+    Call Convention ID                         0.054 secs
+    Call-Fixup Installer                       0.006 secs
+    Create Address Tables                      0.040 secs
+    Create Function                            0.008 secs
+    Data Reference                             0.031 secs
+    Decompiler Switch Analysis                 0.024 secs
+    Demangler GNU                              0.061 secs
+    Disassemble Entry Points                   0.074 secs
+    ELF Scalar Operand References              0.292 secs
+    Embedded Media                             0.024 secs
+    External Entry References                  0.000 secs
+    External Symbol Resolver                   0.004 secs
+    Function ID                                0.220 secs
+    Non-Returning Functions - Discovered       0.373 secs
+    Non-Returning Functions - Known            0.034 secs
+    Reference                                  0.070 secs
+    Shared Return Calls                        0.053 secs
+    Stack                                      0.081 secs
+    Subroutine References                      0.096 secs
+    Subroutine References - One Time           0.000 secs
+    eBPF Syscall Functions                     0.247 secs
+-----------------------------------------------------
+     Total Time   4 secs
+-----------------------------------------------------
+  
+2026-09-29 18:15:48 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: /program.so  
+2026-09-29 18:15:48 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExtractSyscalls.py   
+2026-09-29 18:15:48 ERROR (HeadlessAnalyzer) REPORT SCRIPT ERROR: ExtractSyscalls.py : Ghidra was not started with PyGhidra. Python is not available ghidra.app.script.GhidraScriptLoadException: Ghidra was not started with PyGhidra. Python is not available
+	at ghidra.pyghidra.PyGhidraScriptProvider.getScriptInstance(PyGhidraScriptProvider.java:75)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:924)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1086)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileNoImport(HeadlessAnalyzer.java:1184)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFolderNoImport(HeadlessAnalyzer.java:1356)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processNoImport(HeadlessAnalyzer.java:1385)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:459)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+ 
+2026-09-29 18:15:48 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: /program.so  
+2026-09-29 18:15:48 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: /program.so  
+2026-09-29 18:15:48 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /program.so  
+2026-09-29 18:16:19 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Users/profe/analysis/ghidra/ghidra_12.0.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-09-29 18:16:19 INFO  (LoggingInitialization) Using log file: C:\Users\profe\analysis\output\syscalls.log  
+2026-09-29 18:16:19 INFO  (Preferences) Loading user preferences: C:\Users\profe\AppData\Roaming\ghidra\ghidra_12.0.4_PUBLIC\preferences  
+2026-09-29 18:16:19 INFO  (ClassSearcher) Searching for classes...  
+2026-09-29 18:16:21 INFO  (ClassSearcher) Class search complete (1019 ms)  
+2026-09-29 18:16:21 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-09-29 18:16:21 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-09-29 18:16:21 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-09-29 18:16:21 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-09-29 18:16:21 INFO  (AnalyzeHeadless) Headless startup complete (3265 ms)  
+2026-09-29 18:16:21 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-09-29 18:16:22 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\profe\analysis\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts  
+2026-09-29 18:16:22 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-09-29 18:16:22 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\profe\analysis\ghidra_project\SolanaAnalysis  
+2026-09-29 18:16:22 INFO  (HeadlessProject) Opening project: C:\Users\profe\analysis\ghidra_project\SolanaAnalysis  
+2026-09-29 18:16:25 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /program.so  
+2026-09-29 18:16:25 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: /program.so  
+2026-09-29 18:16:27 DEBUG (FidAnalyzer) No FID Libraries apply for language eBPF:LE:64:default  
+2026-09-29 18:16:27 INFO  (PackedDatabaseCache) Packed database cache: C:\Users\profe\AppData\Local\ghidra\packed-db-cache  
+2026-09-29 18:16:27 DEBUG (PackedDatabaseCache) Using cached packed database: C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Base\data\typeinfo\generic\generic_clib_64.gdt  
+2026-09-29 18:16:29 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2026-09-29 18:16:29 INFO  (ExternalSymbolResolverAnalyzer) Resolving External Symbols of [/program.so] - 1 unresolved symbols, no external libraries configured - skipping  
+2026-09-29 18:16:29 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.676 secs
+    Apply Data Archives                        1.415 secs
+    Basic Constant Reference Analyzer          0.602 secs
+    Call Convention ID                         0.011 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.044 secs
+    Create Function                            0.009 secs
+    Data Reference                             0.024 secs
+    Decompiler Switch Analysis                 0.030 secs
+    Demangler GNU                              0.072 secs
+    Disassemble Entry Points                   0.061 secs
+    ELF Scalar Operand References              0.340 secs
+    Embedded Media                             0.024 secs
+    External Entry References                  0.002 secs
+    External Symbol Resolver                   0.008 secs
+    Function ID                                0.177 secs
+    Non-Returning Functions - Discovered       0.219 secs
+    Non-Returning Functions - Known            0.024 secs
+    Reference                                  0.063 secs
+    Shared Return Calls                        0.040 secs
+    Stack                                      0.134 secs
+    Subroutine References                      0.060 secs
+    Subroutine References - One Time           0.000 secs
+    eBPF Syscall Functions                     0.201 secs
+-----------------------------------------------------
+     Total Time   4 secs
+-----------------------------------------------------
+  
+2026-09-29 18:16:29 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: /program.so  
+2026-09-29 18:16:29 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExtractSyscalls.java   
+2026-09-29 18:16:33 INFO  (HeadlessAnalyzer) SCRIPT: C:\Users\profe\analysis\ghidra_scripts\ExtractSyscalls.java  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> === ALL CALL / CALLX INSTRUCTIONS ===  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000128  CALL  CALL 0x0000aeb8  ->  ram:0000aeb8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000001c0  CALL  CALL 0x000048a0  ->  ram:000048a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000258  CALL  CALL 0x00007ae0  ->  ram:00007ae0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000300  CALL  CALL 0x000047b0  ->  ram:000047b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000500  CALL  CALL 0x0000b3b0  ->  ram:0000b3b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000508  CALL  CALL 0x00000508  ->  ram:00000508  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000570  CALL  CALL 0x00002c90  ->  ram:00002c90  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000600  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000680  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000708  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000778  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000990  CALL  CALL 0x00002618  ->  ram:00002618  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000a18  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000ac8  CALL  CALL 0x00000ac8  ->  ram:00000ac8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000ad0  CALL  CALL 0x00000ad0  ->  ram:00000ad0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000d28  CALL  CALL 0x00006b80  ->  ram:00006b80  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000f78  CALL  CALL 0x0000a488  ->  ram:0000a488  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00000f80  CALL  CALL 0x00000f80  ->  ram:00000f80  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001090  CALL  CALL 0x00008048  ->  ram:00008048  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000011d0  CALL  CALL 0x00006b80  ->  ram:00006b80  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001460  CALL  CALL 0x0000a488  ->  ram:0000a488  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001468  CALL  CALL 0x00001468  ->  ram:00001468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001550  CALL  CALL 0x0000e468  ->  ram:0000e468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001558  CALL  CALL 0x00001558  ->  ram:00001558  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001580  CALL  CALL 0x00004830  ->  ram:00004830  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000015f8  CALL  CALL 0x00004830  ->  ram:00004830  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000016e8  CALL  CALL 0x00007370  ->  ram:00007370  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001978  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001a40  CALL  CALL 0x00009d08  ->  ram:00009d08  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001a58  CALL  CALL 0x00001a58  ->  ram:00001a58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001a68  CALL  CALL 0x00009758  ->  ram:00009758  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001ad8  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001b38  CALL  CALL 0x00001888  ->  ram:00001888  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001ba0  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001cf8  CALL  CALL 0x00001a78  ->  ram:00001a78  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001d50  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001d58  CALL  CALL 0x00001d58  ->  ram:00001d58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001d68  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001d70  CALL  CALL 0x00001d70  ->  ram:00001d70  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001e78  CALL  CALL 0x00001a78  ->  ram:00001a78  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001ed0  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001ed8  CALL  CALL 0x00001ed8  ->  ram:00001ed8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001ee8  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001ef0  CALL  CALL 0x00001ef0  ->  ram:00001ef0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001f20  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001f40  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00001f48  CALL  CALL 0x00001f48  ->  ram:00001f48  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002220  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000025f8  CALL  CALL 0x00001d78  ->  ram:00001d78  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000027d0  CALL  CALL 0x00001ef8  ->  ram:00001ef8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002810  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002818  CALL  CALL 0x00002818  ->  ram:00002818  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002878  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002898  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000028a0  CALL  CALL 0x000028a0  ->  ram:000028a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002910  CALL  CALL 0x00001be0  ->  ram:00001be0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000029d8  CALL  CALL 0x00001be0  ->  ram:00001be0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002b98  CALL  CALL 0x00001be0  ->  ram:00001be0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002c80  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002cb8  CALL  CALL 0x0000e468  ->  ram:0000e468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00002cc0  CALL  CALL 0x00002cc0  ->  ram:00002cc0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00003d18  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00003d68  CALL  CALL 0x00010ef0  ->  ram:00010ef0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00003e00  CALL  CALL 0x000081a0  ->  ram:000081a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00003eb8  CALL  CALL 0x00001880  ->  ram:00001880  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000040e8  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004138  CALL  CALL 0x00001888  ->  ram:00001888  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004168  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000042f8  CALL  CALL 0x00004090  ->  ram:00004090  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004350  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004358  CALL  CALL 0x00004358  ->  ram:00004358  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004368  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004370  CALL  CALL 0x00004370  ->  ram:00004370  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004478  CALL  CALL 0x00004090  ->  ram:00004090  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000044d0  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000044d8  CALL  CALL 0x000044d8  ->  ram:000044d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000044e8  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000044f0  CALL  CALL 0x000044f0  ->  ram:000044f0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000046e8  CALL  CALL 0x0000d520  ->  ram:0000d520  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000047a0  CALL  CALL 0x0000d7f8  ->  ram:0000d7f8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004820  CALL  CALL 0x0000a488  ->  ram:0000a488  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004828  CALL  CALL 0x00004828  ->  ram:00004828  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004998  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000049a0  CALL  CALL 0x000049a0  ->  ram:000049a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000049e8  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004a10  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004a18  CALL  CALL 0x00004a18  ->  ram:00004a18  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004be8  CALL  CALL 0x00004be8  ->  ram:00004be8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004bf0  CALL  CALL 0x00004bf0  ->  ram:00004bf0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004ce0  CALL  CALL 0x000041d8  ->  ram:000041d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004d60  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004d80  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004d88  CALL  CALL 0x00004d88  ->  ram:00004d88  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004df8  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004e20  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004e28  CALL  CALL 0x00004e28  ->  ram:00004e28  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00004f80  CALL  CALL 0x000041d8  ->  ram:000041d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005040  CALL  CALL 0x0000b2d8  ->  ram:0000b2d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005048  CALL  CALL 0x00005048  ->  ram:00005048  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000051e8  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005300  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005488  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000054e8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005550  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000055c8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005650  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005720  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005800  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005858  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005938  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005990  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005a70  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005ac8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005ba8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005c00  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005cf0  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005d60  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005df0  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005eb0  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00005f10  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006000  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006070  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000060c0  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006130  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006210  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006280  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000062b0  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006368  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000063d0  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000064b8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006558  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000065c0  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006648  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006728  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006888  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000068c8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006910  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006958  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006998  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000069d8  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006a10  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006a60  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006ac0  CALL  CALL 0x00004378  ->  ram:00004378  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006b40  CALL  CALL 0x0000b3b0  ->  ram:0000b3b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006b48  CALL  CALL 0x00006b48  ->  ram:00006b48  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006b60  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006b68  CALL  CALL 0x00006b68  ->  ram:00006b68  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006b70  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006b78  CALL  CALL 0x00006b78  ->  ram:00006b78  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006bb0  CALL  CALL 0x00006bc0  ->  ram:00006bc0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00006f00  CALL  CALL 0x00006f98  ->  ram:00006f98  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007020  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007028  CALL  CALL 0x00007028  ->  ram:00007028  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007070  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007098  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000070a0  CALL  CALL 0x000070a0  ->  ram:000070a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000071b8  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000071f0  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000072a8  CALL  CALL 0x000072a8  ->  ram:000072a8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000072e8  CALL  CALL 0x000076f8  ->  ram:000076f8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007318  CALL  CALL 0x00001880  ->  ram:00001880  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007340  CALL  CALL 0x00001880  ->  ram:00001880  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007360  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007368  CALL  CALL 0x00007368  ->  ram:00007368  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000076e0  CALL  CALL 0x00001880  ->  ram:00001880  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007a40  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007a60  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007a68  CALL  CALL 0x00007a68  ->  ram:00007a68  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007b38  CALL  CALL 0x00003c98  ->  ram:00003c98  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00007dc0  CALL  CALL 0x00001880  ->  ram:00001880  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00008038  CALL  CALL 0x00001880  ->  ram:00001880  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00008078  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00008098  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000080a0  CALL  CALL 0x000080a0  ->  ram:000080a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00008190  CALL  CALL 0x00005050  ->  ram:00005050  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00008318  CALL  CALL 0x0000e468  ->  ram:0000e468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00008320  CALL  CALL 0x00008320  ->  ram:00008320  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000083c8  CALL  CALL 0x0000e468  ->  ram:0000e468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000083d0  CALL  CALL 0x000083d0  ->  ram:000083d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009070  CALL  CALL 0x00009718  ->  ram:00009718  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009078  CALL  CALL 0x00009078  ->  ram:00009078  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009080  CALL  CALL 0x00009700  ->  ram:00009700  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009088  CALL  CALL 0x00009088  ->  ram:00009088  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000096e0  CALL  CALL 0x0000d520  ->  ram:0000d520  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000096f0  CALL  CALL 0x000096f0  ->  ram:000096f0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009700  CALL  CALL 0x00001990  ->  ram:00001990  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009708  CALL  CALL 0x00009708  ->  ram:00009708  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009710  CALL  CALL 0x00009710  ->  ram:00009710  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009718  CALL  CALL 0x00009718  ->  ram:00009718  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009720  CALL  CALL 0x00009720  ->  ram:00009720  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009740  CALL  CALL 0x000096f0  ->  ram:000096f0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009748  CALL  CALL 0x00009070  ->  ram:00009070  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009750  CALL  CALL 0x00009750  ->  ram:00009750  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009758  CALL  CALL 0x00009728  ->  ram:00009728  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009760  CALL  CALL 0x00009760  ->  ram:00009760  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009780  CALL  CALL 0x0000c470  ->  ram:0000c470  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000098f8  CALL  CALL 0x00009af0  ->  ram:00009af0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009950  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009958  CALL  CALL 0x00009958  ->  ram:00009958  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009968  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009970  CALL  CALL 0x00009970  ->  ram:00009970  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009a70  CALL  CALL 0x00009af0  ->  ram:00009af0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009ac8  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009ad0  CALL  CALL 0x00009ad0  ->  ram:00009ad0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009ae0  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009ae8  CALL  CALL 0x00009ae8  ->  ram:00009ae8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009b50  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009bb0  CALL  CALL 0x00001888  ->  ram:00001888  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009c18  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009cd0  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009cd8  CALL  CALL 0x00009cd8  ->  ram:00009cd8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009cf8  CALL  CALL 0x00001a68  ->  ram:00001a68  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009d00  CALL  CALL 0x00009d00  ->  ram:00009d00  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009e18  CALL  CALL 0x00009c58  ->  ram:00009c58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009e20  CALL  CALL 0x00009e20  ->  ram:00009e20  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009e38  CALL  CALL 0x000017b0  ->  ram:000017b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009e60  CALL  CALL 0x00009ce0  ->  ram:00009ce0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009e68  CALL  CALL 0x00009e68  ->  ram:00009e68  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009ee8  CALL  CALL 0x0000c470  ->  ram:0000c470  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009f78  CALL  CALL 0x0000b3b0  ->  ram:0000b3b0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00009f80  CALL  CALL 0x00009f80  ->  ram:00009f80  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a0a0  CALL  CALL 0x00009978  ->  ram:00009978  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a1f8  CALL  CALL 0x000097f8  ->  ram:000097f8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a230  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a478  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a508  CALL  CALL 0x0000c390  ->  ram:0000c390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a520  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a528  CALL  CALL 0x0000a528  ->  ram:0000a528  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a6d0  CALL  CALL 0x00010ab0  ->  ram:00010ab0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000a6e8  CALL  CALL 0x0000f7c8  ->  ram:0000f7c8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ae30  CALL  CALL 0x0000e390  ->  ram:0000e390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ae38  CALL  CALL 0x0000ae38  ->  ram:0000ae38  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000aef8  CALLX  CALLX R9  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b008  CALL  CALL 0x0000c470  ->  ram:0000c470  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b060  CALLX  CALLX R9  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b0a8  CALL  CALL 0x00010de0  ->  ram:00010de0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b0c8  CALL  CALL 0x0000c470  ->  ram:0000c470  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b108  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b190  CALLX  CALLX R9  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b1c8  CALLX  CALLX R9  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b238  CALL  CALL 0x00009080  ->  ram:00009080  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b240  CALL  CALL 0x0000b240  ->  ram:0000b240  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b2c8  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b2d0  CALL  CALL 0x0000b2d0  ->  ram:0000b2d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b388  CALL  CALL 0x0000c390  ->  ram:0000c390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b3a0  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b3a8  CALL  CALL 0x0000b3a8  ->  ram:0000b3a8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b480  CALL  CALL 0x0000c390  ->  ram:0000c390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b498  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b4a0  CALL  CALL 0x0000b4a0  ->  ram:0000b4a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b540  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000b900  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c018  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c048  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c098  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c1b0  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c1f0  CALLX  CALLX R4  ->  ram:b4a800000000  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c460  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c468  CALL  CALL 0x0000c468  ->  ram:0000c468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c540  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c570  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c658  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c6c0  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c8a0  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000c9c8  CALL  CALL 0x0000cef8  ->  ram:0000cef8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ca90  CALL  CALL 0x0000e618  ->  ram:0000e618  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cad0  CALL  CALL 0x0000cef8  ->  ram:0000cef8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cb08  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cc80  CALL  CALL 0x0000cef8  ->  ram:0000cef8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ccd0  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cd20  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cde8  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ce28  CALL  CALL 0x0000cef8  ->  ram:0000cef8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ce68  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000ceb0  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cf50  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000cfa8  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d198  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d250  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d298  CALL  CALL 0x0000e618  ->  ram:0000e618  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d398  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d428  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d470  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d4c8  CALLX  CALLX R3  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d540  CALLX  CALLX R5  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d830  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d898  CALL  CALL 0x0000bf58  ->  ram:0000bf58  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d940  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000d9a0  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e440  CALL  CALL 0x0000c390  ->  ram:0000c390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e458  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e460  CALL  CALL 0x0000e460  ->  ram:0000e460  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e518  CALL  CALL 0x0000c390  ->  ram:0000c390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e530  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e538  CALL  CALL 0x0000e538  ->  ram:0000e538  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e5f0  CALL  CALL 0x0000c390  ->  ram:0000c390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e608  CALL  CALL 0x0000b1d8  ->  ram:0000b1d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000e610  CALL  CALL 0x0000e610  ->  ram:0000e610  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f758  CALL  CALL 0x0000b248  ->  ram:0000b248  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f760  CALL  CALL 0x0000f760  ->  ram:0000f760  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f788  CALL  CALL 0x0000e540  ->  ram:0000e540  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f790  CALL  CALL 0x0000f790  ->  ram:0000f790  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f7b8  CALL  CALL 0x0000e468  ->  ram:0000e468  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f7c0  CALL  CALL 0x0000f7c0  ->  ram:0000f7c0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:0000f928  CALL  CALL 0x0000f4c8  ->  ram:0000f4c8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010110  CALL  CALL 0x0000c8d0  ->  ram:0000c8d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010138  CALL  CALL 0x0000e390  ->  ram:0000e390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010140  CALL  CALL 0x00010140  ->  ram:00010140  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010278  CALL  CALL 0x0000c8d0  ->  ram:0000c8d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000102a0  CALL  CALL 0x0000e390  ->  ram:0000e390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000102a8  CALL  CALL 0x000102a8  ->  ram:000102a8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000103e0  CALL  CALL 0x0000c8d0  ->  ram:0000c8d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010408  CALL  CALL 0x0000e390  ->  ram:0000e390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010410  CALL  CALL 0x00010410  ->  ram:00010410  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010468  CALL  CALL 0x000106a8  ->  ram:000106a8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000105a8  CALL  CALL 0x0000c8d0  ->  ram:0000c8d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010698  CALL  CALL 0x0000e390  ->  ram:0000e390  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:000106a0  CALL  CALL 0x000106a0  ->  ram:000106a0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010958  CALL  CALL 0x0000c8d0  ->  ram:0000c8d0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010a18  CALL  CALL 0x000106a8  ->  ram:000106a8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010a40  CALL  CALL 0x000106a8  ->  ram:000106a8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010a70  CALLX  CALLX R4  ->    
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010aa0  CALL  CALL 0x0000cfb8  ->  ram:0000cfb8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010da0  CALL  CALL 0x0000b2d8  ->  ram:0000b2d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010da8  CALL  CALL 0x00010da8  ->  ram:00010da8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010dd0  CALL  CALL 0x0000b2d8  ->  ram:0000b2d8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010dd8  CALL  CALL 0x00010dd8  ->  ram:00010dd8  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010ee0  CALL  CALL 0x00010ee0  ->  ram:00010ee0  
+2026-09-29 18:16:33 INFO  (GhidraScript) ExtractSyscalls.java> ram:00010ff0  CALL  CALL 0x00010ff0  ->  ram:00010ff0  
+2026-09-29 18:16:33 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: /program.so  
+2026-09-29 18:16:33 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: /program.so  
+2026-09-29 18:16:33 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /program.so  
+2026-09-29 18:18:46 INFO  (LoggingInitialization) Using log config file: jar:file:/C:/Users/profe/analysis/ghidra/ghidra_12.0.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-09-29 18:18:46 INFO  (LoggingInitialization) Using log file: C:\Users\profe\analysis\output\syscalls.log  
+2026-09-29 18:18:46 INFO  (Preferences) Loading user preferences: C:\Users\profe\AppData\Roaming\ghidra\ghidra_12.0.4_PUBLIC\preferences  
+2026-09-29 18:18:46 INFO  (ClassSearcher) Searching for classes...  
+2026-09-29 18:18:48 INFO  (ClassSearcher) Class search complete (1600 ms)  
+2026-09-29 18:18:48 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-09-29 18:18:48 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-09-29 18:18:48 INFO  (SecureRandomFactory) Random Number Generator initialization complete: SHA1PRNG  
+2026-09-29 18:18:48 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-09-29 18:18:49 INFO  (AnalyzeHeadless) Headless startup complete (14203 ms)  
+2026-09-29 18:18:49 INFO  (ClassSearcher) Class searcher loaded 58 extension points (18 false positives)  
+2026-09-29 18:18:50 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Jython\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\profe\analysis\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts  
+2026-09-29 18:18:50 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-09-29 18:18:50 INFO  (HeadlessAnalyzer) Opening existing project: C:\Users\profe\analysis\ghidra_project\SolanaAnalysis  
+2026-09-29 18:18:50 INFO  (HeadlessProject) Opening project: C:\Users\profe\analysis\ghidra_project\SolanaAnalysis  
+2026-09-29 18:18:54 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /program.so  
+2026-09-29 18:18:54 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: /program.so  
+2026-09-29 18:18:56 DEBUG (FidAnalyzer) No FID Libraries apply for language eBPF:LE:64:default  
+2026-09-29 18:18:57 INFO  (PackedDatabaseCache) Packed database cache: C:\Users\profe\AppData\Local\ghidra\packed-db-cache  
+2026-09-29 18:18:57 DEBUG (PackedDatabaseCache) Using cached packed database: C:\Users\profe\analysis\ghidra\ghidra_12.0.4_PUBLIC\Ghidra\Features\Base\data\typeinfo\generic\generic_clib_64.gdt  
+2026-09-29 18:18:58 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib_64  
+2026-09-29 18:18:58 INFO  (ExternalSymbolResolverAnalyzer) Resolving External Symbols of [/program.so] - 1 unresolved symbols, no external libraries configured - skipping  
+2026-09-29 18:19:00 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.903 secs
+    Apply Data Archives                        1.788 secs
+    Basic Constant Reference Analyzer          0.602 secs
+    Call Convention ID                         0.024 secs
+    Call-Fixup Installer                       0.005 secs
+    Create Address Tables                      0.038 secs
+    Create Function                            0.079 secs
+    Data Reference                             0.027 secs
+    Decompiler Switch Analysis                 0.025 secs
+    Demangler GNU                              0.100 secs
+    Disassemble Entry Points                   0.066 secs
+    ELF Scalar Operand References              0.375 secs
+    Embedded Media                             0.022 secs
+    External Entry References                  0.000 secs
+    External Symbol Resolver                   0.016 secs
+    Function ID                                0.279 secs
+    Non-Returning Functions - Discovered       0.218 secs
+    Non-Returning Functions - Known            0.036 secs
+    Reference                                  0.076 secs
+    Shared Return Calls                        0.051 secs
+    Stack                                      0.116 secs
+    Subroutine References                      0.077 secs
+    Subroutine References - One Time           0.000 secs
+    eBPF Syscall Functions                     0.303 secs
+-----------------------------------------------------
+     Total Time   5 secs
+-----------------------------------------------------
+  
+2026-09-29 18:19:00 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: /program.so  
+2026-09-29 18:19:00 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExtractSyscalls.py   
+2026-09-29 18:19:00 INFO  (HeadlessAnalyzer) SCRIPT: C:\Users\profe\analysis\ghidra_scripts\ExtractSyscalls.py  
+2026-09-29 18:19:00 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: /program.so  
+2026-09-29 18:19:00 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: /program.so  
+2026-09-29 18:19:00 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /program.so  
